@@ -1,0 +1,511 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+p{
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #606060;
+	text-transform: capitalize;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+i{
+	color: #2fccd0;
+}
+
+/**************start actual css classes **********/
+
+.extra-div h2,.servisediv{
+	font-weight: bold;
+	font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+	word-spacing: 4px;
+	line-height: 1.1;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+	word-spacing: 4px;
+	line-height: 2.5;
+	text-transform: uppercase;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('pic1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	clip-path: polygon(100% 0%, 100% 75% ,50% 100%, 0 75%, 0 0);
+}
+
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+	opacity: .3;
+	background-color:linear-gradient(to right ,#1e5799 0%, #3ccdbb,0%,#16c9f6 100%);
+}
+ 
+.navbar:bofore{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	opacity: .3;
+	z-index: -1;
+	background:linear-gradient(to right ,#1e5799 0%, #3ccdbb,0%,#16c9f6 100%);
+}
+
+.nav-item a{
+	color:white;
+	font-weight: bold;
+}
+
+.header-section{
+	width: 100%;
+	height: inherit;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.center-div{
+	width: 100%;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-button a{
+	border:1px solid white;
+	border-radius: 100px;
+	margin:0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.header-button a:hover{
+	color: #50d1c0;
+    text-decoration: none;
+    background:white;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+}
+
+.header-extra{
+	width: 100%;
+	height: auto;
+	margin:100px 0;
+	text-align: center;
+}
+
+.extra-div{
+	background:white;
+    padding: 50px!important;
+    border:medium none;
+    border-radius: 3px;
+    transition: 0.5s;
+    
+}
+
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+/************ service section start ************ */
+
+.header-sec{
+	background:#f7f7f7;
+	padding:50px 0;
+	margin-bottom: 50px;
+}
+
+.heading{
+	margin-bottom: 50px;
+}
+
+.heading h1{
+	font-size: 1.1rem;
+	font-weight: 600;
+	text-transform: uppercase; 
+}
+
+
+.name h1{
+	color: #2e2e2e;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+.servisediv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.progress{
+	height: 0.6rem!important;
+	margin:25px!important;
+
+}
+
+.web{
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: capitalize; 
+	margin-top: 20px;
+}
+
+.ok{
+
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+.su{
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+/************ service section end ************ */
+
+
+/************ Project section start ************ */
+
+.count-done{
+	margin: 100px 0;
+}
+
+.count-done h1{
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+
+
+/************ project section End ************ */
+
+/************ price section Star ************ */
+
+.price{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+
+.price:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background:linear-gradient(  160deg ,#16c9f6 55%,white 0); 
+}
+
+.money{
+	font-size:40px;
+	line-height: 1;
+	color: #606060;
+}
+
+.card{
+	transition: 0.4s ease;
+}
+
+.card:hover{
+	transform: translateY(-20px);
+}
+
+.card-header{
+	padding: 30px 0!important;
+	text-align: center;
+	background:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+.card-body li{
+	margin:10px 0;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	color: #606060;
+
+}
+
+.card-footer{
+	padding: 30px 0!important;
+	text-align: center;
+	background:white;
+}
+
+.card-footer a{
+	border:1px solid #50d1c0;
+	border-radius: 100px;
+	margin:0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.card:hover .card-footer a{
+	color: white;
+    text-decoration: none;
+    background:#50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+.card:hover .card-header, .card:hover .money{
+	color:#50d1c0;
+}
+
+.card-second{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+/************ price section End ************ */
+
+/************ custumer section Start ************ */
+
+.cus{
+	width: 100%;
+	height: 100vh;
+	padding: 90px 0;
+}
+
+.box{
+
+	text-align: center;
+	border: 2px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+	border-radius: 3px;
+}
+
+.box:hover{
+	background-color: #16c9f6;
+}
+
+.box a{
+	position: relative;
+}
+
+
+
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+.box p{
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.box h1{
+	padding-bottom: 10px;
+	font-size: 13px;
+	font-weight: 700;
+
+}
+
+/************ custumer section End ************ */
+
+/************ contact section Start ************ */
+
+.contact{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+
+}
+
+.contact:before{
+	content: "";
+	top: 0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	position: absolute;
+	background:linear-gradient(330deg, #16c9f6 55%, #fff 0);
+	z-index: -1;
+}
+
+::placeholder{
+	font-size: 0.85rem;
+}
+
+/************ contact section End ************ */
+
+/************ subscribe section Start ************ */
+
+.subs{
+     
+   width: 100%;
+   height: auto;
+   margin: 80px auto;  
+}
+
+.sub-input{
+	border-radius: 100px 0 0  100px!important;
+	min-width: 150px;
+	min-height: 45px;
+
+}
+
+.input-group-text{
+	color: white!important;
+	background:#5bc0de!important;
+	border-radius: 0 100px 100px 0!important;
+}
+
+/************ subscribe section End ************ */
+
+/************ footer section Start ************ */
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	position: relative;
+	background: #00abff;
+}
+
+.footersection p{
+	color: white;
+	text-align: center;
+}
+.footersection h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 1.9rem!important;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.footersection li{
+	text-align: center;
+}
+
+.footersection li a{
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+}
+
+
+#myBtn{
+	position: fixed;
+	display: none;
+	border:none;
+	border-radius: 10px;
+	z-index: 99;
+	color: white;
+	background:#00abff;
+	padding: 10px;
+	bottom:20px;
+	right: 40px;
+}
+
+
+/******** media query ********/
+@media(max-width: 786px){
+	.nav-item{
+		text-align: center;
+	
+	}
+	.price, .cus{
+		height: auto;
+		margin-top: 50px;
+	}
+	.card{
+		transform: translateY(0px);
+		margin:30px 0;
+	}
+
+	.ok{
+		font-size: 26px!important;
+		margin-left: 80px;
+	}
+
+	.pa{
+		text-align: center;
+		margin-left: 10px;
+		font-size: 18px;
+	}
+	.web{
+		font-size: 26px!important;
+		margin-left:  70px;
+	}
+
+	.su{
+		font-size: 26px!important;
+		margin-left: 100px;
+	}
+
+}
+
+/******* End media Query *********/
+
